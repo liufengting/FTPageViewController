@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "FTPageViewController"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "FTPageViewController makes UIPageViewController much easier to use."
   s.description  = <<-DESC
     FTPageViewController makes UIPageViewController much easier to use. It's just a resource for my future projects. Feel welcome to use anyway.
@@ -19,6 +19,6 @@ Pod::Spec.new do |s|
   s.author             = { "liufengting" => "wo157121900@me.com" }
   s.source       = { :git => "https://github.com/liufengting/FTPageViewController.git", :tag => "#{s.version}" }
   s.source_files  = "FTPageViewController", "FTPageViewController/**/*.{h,m,swift}"
-  s.swift_version = '4.2'
+  s.swift_version = '4.0'
 
 end
