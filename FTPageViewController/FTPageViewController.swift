@@ -16,7 +16,7 @@ open class FTPageViewController: UIPageViewController, UIPageViewControllerDeleg
         }
     }
     
-    public var subViewControllers: [UIViewController] = [] {
+    public var subViewControllers: Array<UIViewController> = [] {
         didSet {
             self.reload()
         }
