@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2AAD6786211A7E8600613CDD /* DetialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AAD6785211A7E8600613CDD /* DetialViewController.swift */; };
 		2AD54C1921198717004E2569 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD54C1821198717004E2569 /* AppDelegate.swift */; };
 		2AD54C1B21198717004E2569 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD54C1A21198717004E2569 /* ViewController.swift */; };
 		2AD54C1E21198717004E2569 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AD54C1C21198717004E2569 /* Main.storyboard */; };
@@ -18,6 +19,7 @@
 
 /* Begin PBXFileReference section */
 		07FF1798A29BB5E32DDE26C8 /* Pods_FTPageViewControllerDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FTPageViewControllerDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AAD6785211A7E8600613CDD /* DetialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetialViewController.swift; sourceTree = "<group>"; };
 		2AD54C1521198717004E2569 /* FTPageViewControllerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FTPageViewControllerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AD54C1821198717004E2569 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2AD54C1A21198717004E2569 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -74,6 +76,7 @@
 			children = (
 				2AD54C1821198717004E2569 /* AppDelegate.swift */,
 				2AD54C1A21198717004E2569 /* ViewController.swift */,
+				2AAD6785211A7E8600613CDD /* DetialViewController.swift */,
 				2AD54C2C21198D67004E2569 /* SubViewController.swift */,
 				2AD54C1C21198717004E2569 /* Main.storyboard */,
 				2AD54C1F21198718004E2569 /* Assets.xcassets */,
@@ -207,6 +210,7 @@
 				2AD54C2D21198D67004E2569 /* SubViewController.swift in Sources */,
 				2AD54C1B21198717004E2569 /* ViewController.swift in Sources */,
 				2AD54C1921198717004E2569 /* AppDelegate.swift in Sources */,
+				2AAD6786211A7E8600613CDD /* DetialViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
