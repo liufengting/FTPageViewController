@@ -27,7 +27,7 @@ class ViewController: UIViewController {
         
         let ftPageViewController = FTPageViewController(transitionStyle: .scroll, navigationOrientation: .horizontal, options: nil)
         ftPageViewController.subViewControllers = vcx
-        ftPageViewController.selectedIndex = 2
+        ftPageViewController.currentIndex = 2
         self.present(ftPageViewController, animated: true) {
             
         }

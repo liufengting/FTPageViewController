@@ -10,7 +10,7 @@ import UIKit
 
 open class FTPageViewController: UIPageViewController, UIPageViewControllerDelegate, UIPageViewControllerDataSource {
     
-    public var selectedIndex: NSInteger = 0 {
+    public var currentIndex: NSInteger = 0 {
         didSet {
             self.reload()
         }
@@ -33,6 +33,7 @@ open class FTPageViewController: UIPageViewController, UIPageViewControllerDeleg
     }
     
     public func setup() {
+        self.view.backgroundColor = UIColor.white
         self.delegate = self
         self.dataSource = self
     }
@@ -42,8 +43,8 @@ open class FTPageViewController: UIPageViewController, UIPageViewControllerDeleg
     }
     
     public func reload() {
-        if self.subViewControllers.count > 0 && self.selectedIndex <= self.subViewControllers.count - 1 {
-            let VC : UIViewController = self.subViewControllers[self.selectedIndex]
+        if self.subViewControllers.count > 0 && self.currentIndex <= self.subViewControllers.count - 1 {
+            let VC : UIViewController = self.subViewControllers[self.currentIndex]
             self.setViewControllers([VC], direction: .forward, animated: false) { (completion) in }
         }
     }
